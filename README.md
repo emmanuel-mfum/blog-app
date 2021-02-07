@@ -9,7 +9,7 @@ by the user is then used to initialize a "post" object, which has two attributes
 
 The new object is then pushed into an array of objects that will be displayed on the homepage of the blog ("/home") using a forEach method.
 
-The suer can also reach an individual full-page dedicated to one entry in particular using the route "/posts/:postName", where postName is a
+The user can also reach an individual full-page dedicated to one entry in particular using the route "/posts/:postName", where postName is a
 parameter entered by the user. The server will check if there is any post by that name and if yes, will render the page of this blog post.
 
 Each post on the homepage also has "Read More" feature that points towards the route described above. Posts displayed on the homepage are truncated
